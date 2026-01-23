@@ -32,5 +32,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += vendor/xiaomi/camera/sepolicy/vendor
 
 include vendor/xiaomi/fuxi/BoardConfigVendor.mk
