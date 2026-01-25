@@ -13,6 +13,8 @@ include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
+TARGET_KERNEL_CONFIG += kernel_extra.config
+
 BOOT_KERNEL_MODULES += \
 	fts_touch_spi.ko
 
